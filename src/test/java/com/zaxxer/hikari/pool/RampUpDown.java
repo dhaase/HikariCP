@@ -67,7 +67,7 @@ public class RampUpDown
                connection.close();
            }
 
-           quietlySleep(500);
+           quietlySleep(1400);
 
            assertSame("Total connections not as expected", 5, pool.getTotalConnections());
         }
